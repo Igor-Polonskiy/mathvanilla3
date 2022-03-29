@@ -1,9 +1,9 @@
 (() => {
-    const reloadTaskBtn = document.querySelector('.task8_reloadTask')
-    const checkingTaskBtn = document.querySelector('.task8_checkingTask')
-    const checkTask = document.querySelector('.task8_checkTask')
-    const chek_answerTxt = document.querySelector('.task8_chek_answer')
-    const inputElephant = document.querySelector('#task8_1')
+    const reloadTaskBtn = document.querySelector('.task10_reloadTask')
+    const checkingTaskBtn = document.querySelector('.task10_checkingTask')
+    const checkTask = document.querySelector('.task10_checkTask')
+    const chek_answerTxt = document.querySelector('.task10_chek_answer')
+    const inputElephant = document.querySelector('#task10_1')
 
 
     let answer1 = 0
@@ -24,7 +24,7 @@
     })
 
     checkingTaskBtn.addEventListener('click', () => {
-        if (answer1 === '2') {
+        if (answer1 === '3') {
             chek_answerTxt.innerHTML = '<span>&#128077;</span> Молодец!'
             checkTask.style.background = 'lightgreen'
         } else {

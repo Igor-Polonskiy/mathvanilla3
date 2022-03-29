@@ -18,7 +18,7 @@
 
     reloadTaskBtn.addEventListener('click', () => {
         inputElephant.value = ''
-
+        answer1 = 0
         chek_answerTxt.innerHTML = ''
         checkTask.style.background = ''
     })

@@ -1,9 +1,9 @@
 (() => {
-    const reloadTaskBtn = document.querySelector('.task8_reloadTask')
-    const checkingTaskBtn = document.querySelector('.task8_checkingTask')
-    const checkTask = document.querySelector('.task8_checkTask')
-    const chek_answerTxt = document.querySelector('.task8_chek_answer')
-    const inputElephant = document.querySelector('#task8_1')
+    const reloadTaskBtn = document.querySelector('.task6_reloadTask')
+    const checkingTaskBtn = document.querySelector('.task6_checkingTask')
+    const checkTask = document.querySelector('.task6_checkTask')
+    const chek_answerTxt = document.querySelector('.task6_chek_answer')
+    const inputElephant = document.querySelector('#task6_1')
 
 
     let answer1 = 0

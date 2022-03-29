@@ -10,56 +10,56 @@ body {
     padding: 10px
 }
 
-.task1_circleWrapper {
+.task7_circleWrapper {
     display: flex;
     justify-content: center;
 }
 
-.task1_baloon:hover {
+.task7_baloon:hover {
     cursor: pointer;
 }
 
-.task1_pencils {
+.task7_pencils {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
-.task1_pencil {
+.task7_pencil {
     height: 150px;
     margin: 5px;
     cursor: pointer;
 }
 
-.task1_pencil:hover {
+.task7_pencil:hover {
     transform: translateY(-5px);
     transition: all 0.2s;
 }
 
-.task1_pencilSelect {
+.task7_pencilSelect {
     transform: scale(1.2);
 }
 
-.task1_pencilImg {
+.task7_pencilImg {
     height: 100%;
 }
 
-.task1_checkTask {
+.task7_checkTask {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
 
-.task1_chek_answer {
+.task7_chek_answer {
     font-size: 26px;
 }
 
-#task1_svg {
+#task7_svg {
     height: 400px;
     position: static !important;
 }
 
-.task1Btn {
+.task7Btn {
     cursor: pointer !important;
     transition: all 0.2s ease !important;
     box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4 !important;
@@ -72,6 +72,6 @@ body {
     min-width: 100px !important;
 }
 
-.task1Btn:hover {
+.task7Btn:hover {
     box-shadow: -5px -5px 15px #b8b7b7, 5px 5px 15px #99999b !important;
 }

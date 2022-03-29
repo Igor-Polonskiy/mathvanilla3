@@ -60,6 +60,14 @@
         input6.value = ''
         input7.value = ''
         input8.value = ''
+        answer1 = 0
+        answer2 = 0
+        answer3 = 0
+        answer4 = 0
+        answer5 = 0
+        answer6 = 0
+        answer7 = 0
+        answer8 = 0
 
         chek_answerTxt.innerHTML = ''
         checkTask.style.background = ''
