@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/assets6/task1_style.css">
+    <link rel="stylesheet" href="styles/assets6/task2_style.css">
+    <link rel="stylesheet" href="styles/assets6/task3_style.css">
+    <link rel="stylesheet" href="styles/assets6/task4_style.css">
+    <link rel="stylesheet" href="styles/assets6/task5_style.css">
+    <link rel="stylesheet" href="styles/assets6/task6_style.css">
+    <link rel="stylesheet" href="styles/assets6/task7_style.css">
+    <link rel="stylesheet" href="styles/assets6/task8_style.css">
+    <link rel="stylesheet" href="styles/assets6/task9_style.css">
+    <link rel="stylesheet" href="styles/assets6/task10_style.css">
+    <link rel="stylesheet" href="styles/assets6/task11_style.css">
+</head>
+
+<body>
+    <a name="task1"></a>
+    <h3>Выбираем полоску </h3>
+    <div class="task1_wrapper task_wrapper">
+
+        <div class="task1_answers">
+
+        </div>
+        <div class="task1_checkTask">
+            <button class="task1_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task1_chek_answer"></div>
+            <button class="task1_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task2"></a>
+    <h3>Сколько ёлок? Сколько грибов? </h3>
+    <div class="task2_wrapper task_wrapper">
+        <div class="task2_line">
+            <div class="task2_answer">
+                <img src="Images_3/assets6/task2_1.png">
+                <input type="number" id='task2_1'>
+
+            </div>
+            <div class="task2_answer">
+                <img src="Images_3/assets6/task2_2.png">
+                <input type="number" id='task2_2'>
+
+            </div>
+        </div>
+
+        <div class="task2_checkTask">
+            <button class="task2_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task2_chek_answer"></div>
+            <button class="task2_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task3"></a>
+    <h3>Раскраска </h3>
+    <div class="task3_wrapper task_wrapper">
+        <div class="task3_circleWrapper">
+
+            <svg version="1.1" id="task3_svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 600" enable-background="new 0 0 800 600" xml:space="preserve" width="100%" height="100%">
+                <image style="overflow:visible;" width="3200" height="2500" xlink:href="Images_3/assets6/task3_1.png"
+                    transform="matrix(0.2336 0 0 0.2336 26.24 8)"></image>
+                <g class='task3_baloon task3_red' fill="#fff" neededcolor="3" startfillcolor="#fff">
+                    <path d="M79,131H22V74h57V131z"></path>
+                </g>
+                <g class='task3_baloon task3_green' fill="#fff" neededcolor="1" startfillcolor="#fff">
+                    <path d="M79,328.5H22v-57h57V328.5z"></path>
+                </g>
+                <g class='task3_baloon task3_yellow' fill="#fff" neededcolor="2" startfillcolor="#fff">
+                    <path d="M79,532.5H22v-57h57V532.5z"></path>
+                </g>
+                <g stoppainting="true">
+                    <path style="fill:#201600;"
+                        d="M80.5,132.5h-60v-60h60V132.5z M23.5,129.5h54v-54h-54V129.5z M80.5,330h-60v-60h60V330z M23.5,327		h54v-54h-54V327z M80.5,534h-60v-60h60V534z M23.5,531h54v-54h-54V531z">
+                    </path>
+                </g>
+            </svg>
+        </div>
+        <div class="task3_pencils">
+            <div class="task3_pencil"><img data-color='yellow' class="task3_pencilImg" src="Images_3/assets6/lightOrange.png" alt="re pencil"></div>
+            <div class="task3_pencil"><img data-color='green' class="task3_pencilImg" src="Images_3/assets6/green.png" alt="re pencil"></div>
+            <div class="task3_pencil"><img data-color='red' class="task3_pencilImg" src="Images_3/assets6/red.png" alt="re6 pencil"></div>
+            <div class="task3_pencil"><img data-color='#fff' class="task3_pencilImg" src="Images_3/assets6/eraser.png" alt="eraser"></div>
+        </div>
+        <div class="task3_checkTask">
+            <button class="task3_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task3_chek_answer"></div>
+            <button class="task3_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task4"></a>
+    <h3>Длиннее. Короче. Одинаковой длины </h3>
+    <div class="task4_wrapper task_wrapper">
+        <div class="task4_begin"><button class="task4_start1">начать со звуком</button><button class="task4_start2">начать без звука</button></div>
+        <div class="task4_sliderWrapper">
+            <div class="task4_counting">Изображение <span class="task4_count1"></span> из <span class="task4_count2"></span></div>
+
+            <divc class="task4_slider">
+                <button class="task4_prev task4_btn"><img src="Images_3/assets6/prev.png" alt=""></button>
+                <div class="task4_slide">
+                    <div class="task4_img"></div>
+                </div>
+
+                <button class="task4_next task4_btn"><img src="Images_3/assets6/next.png" alt=""></button>
+            </divc>
+        </div>
+
+        <div class="task4_slide_caption"></div>
+
+
+        <audio class="task4_audio" src="sound/6/task4_1.mp3">
+            Your browser does not support the
+            <code>audio</code> element.s
+        </audio>
+        <audio class="task4_audio" src="sound/6/task4_2.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+        <audio class="task4_audio" src="sound/6/task4_3.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+        <audio class="task4_audio" src="sound/6/task4_4.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+        <audio class="task4_audio" src="sound/6/task4_5.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+        <audio class="task4_audio" src="sound/6/task4_6.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+        <audio class="task4_audio" src="sound/6/task4_7.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+
+    </div>
+
+    <a name="task5"></a>
+    <h3>Короткая спичка </h3>
+    <div class="task5_wrapper task_wrapper">
+
+        <div class="task5_answers">
+
+        </div>
+        <div class="task5_checkTask">
+            <button class="task5_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task5_chek_answer"></div>
+            <button class="task5_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task6"></a>
+    <h3>Чей шаг короче? </h3>
+    <div class="task6_wrapper task_wrapper">
+
+        <div class="task6_answers">
+
+        </div>
+        <div class="task6_checkTask">
+            <button class="task6_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task6_chek_answer"></div>
+            <button class="task6_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task7"></a>
+    <h3>Гвозди </h3>
+    <div class="task7_wrapper task_wrapper">
+        <div class="task7_answer">
+            <p><span class="task7_play task7_play1">&#128265;</span>Впиши номер гвоздя, который длиннее гвоздя,<br> нарисованного в рамке. <input type="number" id='task7_1'></p>
+            <p><span class="task7_play task7_play2">&#128265;</span>Впиши номер гвоздя, который короче гвоздя,<br> нарисованного в рамке. <input type="number" id='task7_2'> </p>
+            <p><span class="task7_play task7_play3">&#128265;</span>Впиши номер гвоздя, который такой же,<br> как гвоздь, нарисованный в рамке. <input type="number" id='task7_3'> </p>
+
+        </div>
+        <div class="task7_checkTask">
+            <button class="task7_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task7_chek_answer"></div>
+            <button class="task7_checkingTask task1Btn">проверить</button>
+        </div>
+
+        <audio class="task7_audio" src="sound/6/task7_1.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+        <audio class="task7_audio" src="sound/6/task7_2.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+        <audio class="task7_audio" src="sound/6/task7_3.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+    </div>
+
+    <a name="task8"></a>
+    <h3>Расставляем предметы по длине </h3>
+    <div class="task8_wrapper task_wrapper">
+        <div class="task8_imgWrapper">
+            <div class="task8_container">
+                <div class="task8_imgWrapper_img" data-number="1">
+                </div>
+            </div>
+            <div class="task8_container">
+                <div class="task8_imgWrapper_img" data-number="2">
+                </div>
+            </div>
+            <div class="task8_container">
+                <div class="task8_imgWrapper_img" data-number="3">
+                </div>
+            </div>
+        </div>
+        <div class="task8_answers">
+
+        </div>
+        <div class="task8_checkTask">
+            <button class="task8_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task8_chek_answer"></div>
+            <button class="task8_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+
+    <a name="task9"></a>
+    <h3>Готовимся к ВПР. Верно — неверно</h3>
+    <div class="task9_wrapper task_wrapper">
+        <div class="task9_imgwrapper">
+        </div>
+        <div class="task9_checkTask">
+            <button class="task9_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task9_chek_answer"></div>
+            <button class="task9_checkingTask task1Btn">проверить</button>
+        </div>
+        <audio class="task9_audio" src="sound/6/task9_1.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+        <audio class="task9_audio" src="sound/6/task9_2.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+        <audio class="task9_audio" src="sound/6/task9_3.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+        <audio class="task9_audio" src="sound/6/task9_4.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+
+    </div>
+
+    <a name="task10"></a>
+    <h3>Раскраска </h3>
+    <div class="task10_wrapper task_wrapper">
+        <div class="task10_circleWrapper">
+
+
+            <svg version="1.1" id="task10_svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 671 258" enable-background="new 0 0 671 258" xml:space="preserve">
+                <g id="kontur" stoppainting="true">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M34,192c199.912,0,399.822-0.003,599.734,0.041 c1.755,0.001,3.511,0.626,5.266,0.959c0,10.659,0,21.317,0,31.981c-201.666,0.006-403.333,0.006-605,0 C34,213.983,34,202.992,34,192z M37.221,221.646c199.796,0,399.156,0,598.538,0c0-8.957,0-17.556,0-26.379 c-199.6,0-398.958,0-598.538,0C37.221,204.13,37.221,212.729,37.221,221.646z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M545,35c0.333,1.761,0.932,3.519,0.954,5.283 c0.104,7.993-0.131,15.994,0.122,23.981c0.122,3.819-1.296,5.192-4.915,4.746c-0.656-0.08-1.331-0.011-1.997-0.011 C370.775,69,202.388,69,34,69c0-11.323,0-22.646,0-34C204.333,35,374.666,35,545,35z M542.785,38.361 c-168.816,0-337.175,0-505.538,0c0,9.297,0,18.229,0,27.365c168.606,0,336.965,0,505.538,0 C542.785,56.522,542.785,47.591,542.785,38.361z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M34,153c151.769,0,303.537,0.021,455.306-0.098 c4.754-0.003,5.959,1.515,5.79,6.022C494.769,167.711,495,176.519,495,186c-153.943,0-307.472,0-461,0C34,175,34,164,34,153z M491.776,156.353c-151.788,0-303.147,0-454.539,0c0,8.952,0,17.552,0,26.384c151.597,0,302.956,0,454.539,0 C491.776,173.876,491.776,165.277,491.776,156.353z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M34,113c123.947,0,247.895,0.021,371.842-0.087 c4.258-0.004,5.368,1.34,5.244,5.405C410.811,127.278,411,136.254,411,146c-125.938,0-251.469,0-377,0C34,135,34,124,34,113z M37.232,142.656c123.763,0,247.123,0,370.362,0c0-9.069,0-17.789,0-26.4c-123.647,0-246.889,0-370.362,0 C37.232,125.107,37.232,133.706,37.232,142.656z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M34,76c1.744-0.333,3.488-0.958,5.232-0.958 c121.986-0.046,243.972-0.02,365.958-0.131c4.488-0.004,6.139,1.019,5.924,5.789C410.717,89.498,411,98.326,411,108 c-125.885,0-251.443,0-377,0C34,97.333,34,86.667,34,76z M407.785,78.361c-123.815,0-247.174,0-370.539,0 c0,8.963,0,17.561,0,26.365c123.606,0,246.965,0,370.539,0C407.785,95.857,407.785,87.259,407.785,78.361z">
+                    </path>
+                </g>
+                <g class='task10_baloon task10_blue' id="blue" stroke-width="2" stroke="white" fill="white" neededcolor="4" startfillcolor="white"
+                    startstrokecolor="white">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M37.221,221.646c0-8.916,0-17.516,0-26.379 c199.58,0,398.938,0,598.538,0c0,8.823,0,17.422,0,26.379C436.377,221.646,237.018,221.646,37.221,221.646z">
+                    </path>
+                </g>
+                <g class='task10_baloon task10_red' id="red" stroke-width="2" stroke="white" fill="white" neededcolor="1" startfillcolor="white"
+                    startstrokecolor="white">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M542.785,38.361c0,9.229,0,18.161,0,27.365 c-168.572,0-336.931,0-505.538,0c0-9.136,0-18.068,0-27.365C205.61,38.361,373.969,38.361,542.785,38.361z">
+                    </path>
+                </g>
+                <g class='task10_baloon task10_green' id="green" stroke-width="2" stroke="white" fill="white" neededcolor="3" startfillcolor="white"
+                    startstrokecolor="white">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M491.776,156.353c0,8.925,0,17.523,0,26.384 c-151.583,0-302.942,0-454.539,0c0-8.832,0-17.432,0-26.384C188.629,156.353,339.988,156.353,491.776,156.353z">
+                    </path>
+                </g>
+                <g class='task10_baloon task10_yellow' id="yellow" stroke-width="2" stroke="white" fill="white" neededcolor="2" startfillcolor="white"
+                    startstrokecolor="white">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M37.232,142.656c0-8.95,0-17.549,0-26.4 c123.473,0,246.714,0,370.362,0c0,8.611,0,17.331,0,26.4C284.354,142.656,160.995,142.656,37.232,142.656z">
+                    </path>
+                </g>
+                <g class='task10_baloon task10_yellow' id="yellow_1_" stroke-width="2" stroke="white" fill="white" neededcolor="2" startfillcolor="white"
+                    startstrokecolor="white">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M407.785,78.361c0,8.897,0,17.496,0,26.365 c-123.574,0-246.933,0-370.539,0c0-8.805,0-17.402,0-26.365C160.611,78.361,283.97,78.361,407.785,78.361z">
+                    </path>
+                </g>
+            </svg>
+
+        </div>
+        <div class="task10_pencils">
+            <div class="task10_pencil"><img data-color='blue' class="task10_pencilImg" src="Images_3/assets6/blue.png" alt="re pencil"></div>
+
+            <div class="task10_pencil"><img data-color='yellow' class="task10_pencilImg" src="Images_3/assets6/lightOrange.png" alt="re pencil"></div>
+            <div class="task10_pencil"><img data-color='green' class="task10_pencilImg" src="Images_3/assets6/green.png" alt="re pencil"></div>
+            <div class="task10_pencil"><img data-color='red' class="task10_pencilImg" src="Images_3/assets6/red.png" alt="re6 pencil"></div>
+            <div class="task10_pencil"><img data-color='#fff' class="task10_pencilImg" src="Images_3/assets6/eraser.png" alt="eraser"></div>
+        </div>
+        <div class="task10_checkTask">
+            <button class="task10_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task10_chek_answer"></div>
+            <button class="task10_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task11"></a>
+    <h3>Пары предметов </h3>
+    <div class="task11_wrapper task_wrapper">
+        <div class="task11_imgWrapper">
+            <div class="task11_container">
+                Подбери предмет короче, чем
+                <img src="Images_3/assets6/task11_1.png" class="task11_img1">
+                <div class="task11_imgWrapper_img" data-number="1">
+                </div>
+            </div>
+            <div class="task11_container">
+                Подбери предмет такой же по размеру
+                <img src="Images_3/assets6/task11_2.png" class="task11_img2">
+                <div class="task11_imgWrapper_img" data-number="2">
+                </div>
+            </div>
+            <div class="task11_container">
+                Подбери предмет длиннее, чем
+                <img src="Images_3/assets6/task11_3.png" class="task11_img3">
+                <div class="task11_imgWrapper_img" data-number="3">
+                </div>
+            </div>
+        </div>
+        <div class="task11_answers">
+
+        </div>
+        <div class="task11_checkTask">
+            <button class="task11_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task11_chek_answer"></div>
+            <button class="task11_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <script src="js-data/assets6/task2_script.js"></script>
+    <script src="js-data/assets6/task3_script.js"></script>
+    <script src="js-data/assets6/task1_script.js"></script>
+    <script src="js-data/assets6/task4_script.js"></script>
+    <script src="js-data/assets6/task5_script.js"></script>
+    <script src="js-data/assets6/task6_script.js"></script>
+    <script src="js-data/assets6/task7_script.js"></script>
+    <script src="js-data/assets6/task8_script.js"></script>
+    <script src="js-data/assets6/task9_script.js"></script>
+    <script src="js-data/assets6/task10_script.js"></script>
+    <script src="js-data/assets6/task11_script.js"></script>
+</body>
+
+</html>
