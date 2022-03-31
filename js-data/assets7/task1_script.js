@@ -1,32 +1,39 @@
 (() => {
-    const reloadTaskBtn = document.querySelector('.task11_reloadTask')
-    const checkingTaskBtn = document.querySelector('.task11_checkingTask')
-    const checkTask = document.querySelector('.task11_checkTask')
-    const chek_answerTxt = document.querySelector('.task11_chek_answer')
-    const drops = document.querySelectorAll('.task11_imgWrapper_img')
-    const answersWrapper = document.querySelector('.task11_answers')
-    const task = document.querySelector('.task11_wrapper')
+    const reloadTaskBtn = document.querySelector('.task1_reloadTask')
+    const checkingTaskBtn = document.querySelector('.task1_checkingTask')
+    const checkTask = document.querySelector('.task1_checkTask')
+    const chek_answerTxt = document.querySelector('.task1_chek_answer')
+    const drops = document.querySelectorAll('.task1_imgWrapper_img')
+    const answersWrapper = document.querySelector('.task1_answers')
+    const task = document.querySelector('.task1_wrapper')
 
 
     const answers = [{
             id: 1,
-            data: 'Images_3/assets6/task11_4.png'
+            data: 'Images_3/assets7/task1_1.png'
         },
         {
             id: 2,
-            data: 'Images_3/assets6/task11_5.png'
+            data: 'Images_3/assets7/task1_2.png'
         },
         {
             id: 3,
-            data: 'Images_3/assets6/task11_6.png'
+            data: 'Images_3/assets7/task1_3.png'
+        },
+        {
+            id: 4,
+            data: 'Images_3/assets7/task1_4.png'
+        },
+        {
+            id: 5,
+            data: 'Images_3/assets7/task1_5.png'
         }
     ]
 
     function setAnswers() {
         answers.sort(() => Math.random() - 0.5).forEach(item => {
             let answer = document.createElement('div')
-            answer.classList.add(`task11_answer`)
-            answer.classList.add(`task11_img1${item.id}`)
+            answer.classList.add('task1_answer')
             answer.style.backgroundImage = `url(${item.data})`
             answer.setAttribute('data-number', item.id)
             answersWrapper.append(answer)
@@ -45,7 +52,7 @@
     }
 
     task.addEventListener('mousedown', (e) => {
-        if (e.target.classList.contains('task11_answer')) {
+        if (e.target.classList.contains('task1_answer')) {
             chek_answerTxt.innerHTML = ''
             checkTask.style.background = ''
 
@@ -61,7 +68,6 @@
 
             moveAt(e.pageX, e.pageY);
         }
-
     })
 
     document.addEventListener('mousemove', (e) => {
@@ -77,7 +83,7 @@
             elemBelow = document.elementFromPoint(e.clientX, e.clientY);
             draggingItem.style.visibility = 'visible';
             draggingItem.style.cursor = "grab";
-            if (elemBelow.classList.contains("task11_imgWrapper_img") && elemBelow.children.length === 0) {
+            if (elemBelow.classList.contains("task1_imgWrapper_img") && elemBelow.children.length === 0) {
                 draggingItem.style.position = "static";
                 draggingItem.style.zIndex = null;
                 draggingItem.style.top = null;
@@ -123,7 +129,7 @@
 
 
 
-        if (winVar === 3) {
+        if (winVar === 5) {
             chek_answerTxt.innerHTML = '<span>&#128077;</span> Молодец!'
             checkTask.style.background = 'lightgreen'
         } else {
