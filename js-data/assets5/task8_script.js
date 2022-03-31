@@ -1,14 +1,14 @@
 (() => {
-    const reloadTaskBtn = document.querySelector('.task9_reloadTask')
-    const checkingTaskBtn = document.querySelector('.task9_checkingTask')
-    const checkTask = document.querySelector('.task9_checkTask')
-    const chek_answerTxt = document.querySelector('.task9_chek_answer')
-    const input1 = document.querySelector('#task9_1')
-    const input2 = document.querySelector('#task9_2')
-    const input3 = document.querySelector('#task9_3')
-    const input4 = document.querySelector('#task9_4')
-    const input5 = document.querySelector('#task9_5')
-    const input6 = document.querySelector('#task9_6')
+    const reloadTaskBtn = document.querySelector('.task8_reloadTask')
+    const checkingTaskBtn = document.querySelector('.task8_checkingTask')
+    const checkTask = document.querySelector('.task8_checkTask')
+    const chek_answerTxt = document.querySelector('.task8_chek_answer')
+    const input1 = document.querySelector('#task8_1')
+    const input2 = document.querySelector('#task8_2')
+    const input3 = document.querySelector('#task8_3')
+    const input4 = document.querySelector('#task8_4')
+    const input5 = document.querySelector('#task8_5')
+    const input6 = document.querySelector('#task8_6')
 
 
 
@@ -63,11 +63,11 @@
 
     checkingTaskBtn.addEventListener('click', () => {
         if (answer1 === '+' &&
-            answer2 === '1' &&
-            answer3 === '2' &&
+            answer2 === '+' &&
+            answer3 === '-' &&
             answer4 === '-' &&
-            answer5 === '3' &&
-            answer6 === '2') {
+            answer5 === '+' &&
+            answer6 === '-') {
             chek_answerTxt.innerHTML = '<span>&#128077;</span> Молодец!'
             checkTask.style.background = 'lightgreen'
         } else {
